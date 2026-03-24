@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+
+# Telegram session files
+*.session
+*.session-journal
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
+
+# Agent tools cache
+agent-tools/
+
+# Claude Code
+.claude/settings.json
+
+# Parsed data (can be regenerated)
+parsed_messages.json
+messages_with_media.json
+processing_results.txt
+
+# Scripts (helpers, can be regenerated)
+save_messages.py
+save_all_posts.py
+save_posts_with_media.py
+process_channel.py
+
+# Media downloads in progress
+test_media_*
+
+# Drafts (unpublished content)
+content/drafts/
+
+# Media files (downloaded separately)
+content/media/
+
+# Local Claude settings
+.claude/settings.local.json
