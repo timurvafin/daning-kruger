@@ -1,0 +1,16 @@
+name            = "daning-kruger"
+title           = "Дэнинг-Крюгер (контент)"
+type            = "content"
+status          = "active"
+area            = ""
+priority        = "normal"
+visibility      = "public"
+deadline        = ""
+cadence         = ""
+tech            = []
+tags            = ["content", "writing", "channel"]
+related         = []
+repo            = ""
+has_own_git     = true
+todoist_project_id = "6gMv9jR85jwHmVmh"
+notes           = "Контент-проект / канал"

@@ -223,6 +223,12 @@ has_media: false
 
 Полный workflow: `/project:sync-channel`
 
+### Аналитика канала
+
+- `/dg-stats` — снимок подписчиков + статистика постов (views, reactions, forwards)
+- Снимки хранятся в `.life/stats/`
+- Скрипт диффа: `.claude/skills/dg-stats/scripts/diff_subscribers.py`
+
 ### Общие принципы:
 
 - Контент на русском, code comments на английском
