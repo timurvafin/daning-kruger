@@ -45,3 +45,6 @@ content/media/
 
 # Local Claude settings
 .claude/settings.local.json
+
+# dg-stats subscriber snapshots contain third-party PII (names + Telegram IDs) — never commit
+.life/stats/subscribers-*.json
